@@ -9,7 +9,7 @@ import spray.routing.Directives
 import io.swagger.annotations._
 import javax.ws.rs.Path
 
-@Api(value = "/add", description = "Hello Template.", produces = "application/json")
+@Api(value = "/add", description = "Add Numbers.", produces = "application/json")
 @Path("/add")
 class AddService(addActor: ActorRef)(implicit executionContext: ExecutionContext)
   extends Directives with DefaultJsonFormats {
