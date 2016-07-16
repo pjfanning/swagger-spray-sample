@@ -11,6 +11,6 @@ resolvers += Resolver.mavenLocal
 libraryDependencies ++= Seq(
   "io.spray" %% "spray-servlet" % "1.3.3",
   "io.spray" %% "spray-can" % "1.3.3",
-  "com.github.swagger-spray" %% "swagger-spray" % "0.6.2",
+  "com.github.swagger-spray" %% "swagger-spray" % "0.7.2-SNAPSHOT",
   "org.slf4j" % "slf4j-simple" % "1.7.14"
 )
